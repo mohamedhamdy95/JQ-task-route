@@ -1,0 +1,68 @@
+* {
+  font-family: "Segoe UI Light";
+}
+body{
+  position: relative;
+  transition: all 1s;
+
+}
+
+/*******************************************home**********************************************/
+
+.home {
+  height: 100vh;
+  background-image: linear-gradient(rgba(214, 46, 51 , 0.6) , rgba(214, 46, 51 , 0.6)) , url(../imagess/events-heavenly-header.jpg) ;
+  background-size: 100% 100%;
+  /* position: relative; */
+
+}
+.home .sidebar{
+z-index: 999;
+height: 100%;
+position: absolute;
+width: 300px;
+left: -201px;
+top: 0;
+transition: all 1s;
+}
+
+.home .sidebar .open{
+cursor: pointer;
+}
+.home .sidebar .btn:hover{
+color: #D62E33 !important;
+}
+.home .sidebar .links a:hover{
+color: #D62E33 !important;
+}
+/*******************************************acordion**********************************************/
+
+.acordion .data .title{
+  cursor: pointer;
+}
+.acordion .data .content{
+  display: none;
+  /* transition: all 1s; */
+
+}
+
+/*******************************************counter**********************************************/
+
+
+.counter{
+
+  background-image: linear-gradient(rgba(214, 46, 51 , 0.6) , rgba(214, 46, 51 , 0.6)) , url(../imagess/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 50% 50%;
+}
+
+
+/*******************************************jouin us**********************************************/
+.jouin .social .icon:hover{
+  background-color: #D62E33;
+  color: white;
+}
+
+
+
